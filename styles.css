@@ -1,0 +1,98 @@
+/* styles.css */
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #222;
+  line-height: 1.6;
+}
+
+header {
+  background: #e3f2fd;
+  padding: 2rem;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: #0d47a1;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  list-style: none;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0d47a1;
+  font-weight: bold;
+}
+
+.btn-primary,
+.btn-secondary {
+  background: #0d47a1;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1rem;
+  border-radius: 6px;
+}
+
+section {
+  padding: 2rem 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.services article,
+.testimonials blockquote {
+  margin-bottom: 1.5rem;
+  background: #fff;
+  padding: 1rem;
+  border-left: 4px solid #0d47a1;
+}
+
+footer {
+  text-align: center;
+  background: #0d47a1;
+  color: #fff;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+.footer-nav {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+details {
+  margin-top: 1rem;
+}
